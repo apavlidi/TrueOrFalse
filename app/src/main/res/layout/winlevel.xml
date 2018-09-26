@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#357d78"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ΣΥΓΧΑΡΗΤΗΡΙΑ"
+            android:id="@+id/txtCongratulations"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ΠΕΡΑΣΕΣ ΤΟ ΕΠΙΠΕΔΟ "
+            android:id="@+id/txtPassedLevel"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_weight="0.17" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ΣΩΣΤΕΣ ΑΠΑΝΤΗΣΕΙΣ "
+            android:id="@+id/txtCorrectAnswers"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.51" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="ΕΠΟΜΕΝΟ ΕΠΙΠΕΔΟ"
+                android:id="@+id/btnNextLevel"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.06"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="52dp" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="ΜΕΝΟΥ"
+                android:id="@+id/btnMenuWin"
+                android:layout_weight="0.15"
+                android:layout_marginStart="48dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/btnNextLevel" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

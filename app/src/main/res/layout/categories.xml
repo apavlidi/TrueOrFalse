@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#357d78">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ΕΠΙΛΕΞΤΕ ΚΑΤΗΓΟΡΙΑ"
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ΠΛΗΡΟΦΟΡΙΚΗ"
+            android:id="@+id/btnComputerScience"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ΙΣΤΟΡΙΑ"
+            android:id="@+id/btnHistory"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ΓΕΝΙΚΑ"
+            android:id="@+id/btnGeneral"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+</LinearLayout>
