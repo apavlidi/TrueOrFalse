@@ -19,3 +19,7 @@ True or False is a brain teasing trivia quiz game.
 Player starts the survival quiz with a several lives. The player has to correctly respond to questions.
 For each question, the player has only 15 seconds to decide whether the statement is true or false. If the player’s answer is wrong or his time is up, he loses one of his lives. 
 There is also 3 folds you can make if you are not sure for the answer.Difficulity increases as the player proceeds to next levels.
+
+
+#### Note
+This project was implemented during my first year of my Bsc studies.
